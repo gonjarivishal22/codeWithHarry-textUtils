@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codeWithHarry-textUtils/static/css/main.49495358.css",
+    "main.js": "/codeWithHarry-textUtils/static/js/main.bf357db1.js",
+    "static/js/787.fb9a5fa6.chunk.js": "/codeWithHarry-textUtils/static/js/787.fb9a5fa6.chunk.js",
+    "index.html": "/codeWithHarry-textUtils/index.html",
+    "main.49495358.css.map": "/codeWithHarry-textUtils/static/css/main.49495358.css.map",
+    "main.bf357db1.js.map": "/codeWithHarry-textUtils/static/js/main.bf357db1.js.map",
+    "787.fb9a5fa6.chunk.js.map": "/codeWithHarry-textUtils/static/js/787.fb9a5fa6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49495358.css",
+    "static/js/main.bf357db1.js"
+  ]
+}
