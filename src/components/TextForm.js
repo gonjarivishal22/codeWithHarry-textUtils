@@ -30,7 +30,7 @@ export default function TextForm(props) {
     }
 
     const handleExtraSpaces = () => {
-        let newText = text.split(/[\s]+/)
+        let newText = text.split(/\s+/)
         setText(newText.join(" "))
         props.showAlert('Extra spaces removed', 'warning')
     }
@@ -58,7 +58,7 @@ export default function TextForm(props) {
             </div>
             <div className="container my-2" style={{ color: props.mode === 'light' ? '#042743' : 'white' }}>
                 <h2>Your text summary</h2>
-                <p>words:{text.split(" ").filter((ele) => { return ele.length != 0 }).length} and letters:{text.length}</p>
+                <p>words:{text.split(/\s+/).filter((ele) => { return ele.length !== 0 }).length} and letters:{text.length}</p>
                 <h3>Preview:</h3> <p>{text.length === 0 ? 'Nothing To Preview' : text}</p>
             </div>
         </>
